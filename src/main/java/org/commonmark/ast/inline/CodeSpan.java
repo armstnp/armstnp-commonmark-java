@@ -1,6 +1,6 @@
 package org.commonmark.ast.inline;
 
-public class CodeSpan implements IInlineContent {
+public class CodeSpan implements InlineContent{
 	private final String content;
 
 	public CodeSpan(final String content){

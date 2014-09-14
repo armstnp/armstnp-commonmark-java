@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class Emphasis extends InlineContentSequence{
-	public Emphasis(Supplier<? extends List<IInlineContent>> contentSequenceListProvider){
+	public Emphasis(Supplier<? extends List<InlineContent>> contentSequenceListProvider){
 		super(contentSequenceListProvider);
 	}
 }

@@ -1,4 +1,4 @@
 package org.commonmark.ast.inline;
 
-abstract class Entity implements IInlineContent { }
+public abstract class Entity implements InlineContent{ }
 //TODO: Provide abstractions for named, decimal, and hexadecimal entities ( http://jgm.github.io/stmd/spec.html#entities )
