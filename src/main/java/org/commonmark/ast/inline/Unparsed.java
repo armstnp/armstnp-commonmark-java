@@ -10,4 +10,8 @@ public class Unparsed implements InlineContent{
 	public String getText(){
 		return text;
 	}
+
+	public void appendText(String text){
+		this.text += text;
+	}
 }
