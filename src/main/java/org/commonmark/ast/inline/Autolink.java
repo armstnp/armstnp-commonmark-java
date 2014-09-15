@@ -1,6 +1,6 @@
 package org.commonmark.ast.inline;
 
-public class Autolink{
+public class Autolink implements InlineContent{
 	private final AutolinkScheme scheme;
 	private final String uri;
 

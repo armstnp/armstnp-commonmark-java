@@ -1,7 +1,7 @@
 package org.commonmark.ast.inline;
 
-public class Unparsed {
-	private final String text;
+public class Unparsed implements InlineContent{
+	private String text;
 
 	public Unparsed(String text){
 		this.text = text;
